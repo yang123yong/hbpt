@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sys.demo01.dao.YclrkDao">
+    <select id="getYclrkVos" resultType="com.sys.demo01.vo.YclrkVo">
+        SELECT yclrk_id,yclrk_no,yclrk_material_name,khmc_id,
+        ( SELECT k.khmc_name FROM khmc AS k WHERE k.khmc_id= yc.khmc_id) AS khmc_name,
+        gcmc_id,( SELECT g.gcmc_name FROM gcmc AS g WHERE g.gcmc_id= yc.gcmc_id) AS gcmc_name
+        ,yclrk_team,yclrk_checkout,yclrk_standard,yclrk_time,
+        yclrk_amount,yclrk_amount_damage,yclrk_shelves,yclrk_barcode,
+        yclrk_barcode_iscreate,yclrk_standard_width,yclrk_standard_height,
+        yclrk_ck_time,yclrk_cpsj_time,yclrk_rest_amount FROM yclrk AS yc
+    </select>
+    <resultMap id="yclrkVoList" type="com.sys.demo01.vo.YclrkVo">
+        <id property="yclrk_id" column="yclrk_id"></id>
+        <association property="khmc" javaType="Khmc" select="com.sys.demo01.dao.KhmcDao.selectKhmcById"
+                     column="khmc_id"></association>
+        <association property="gcmc" javaType="Gcmc" select="com.sys.demo01.dao.GcmcDao.getGcmcById"
+                     column="gcmc_id"></association>
+    </resultMap>
+    <select id="getYclrkVoList" resultMap="yclrkVoList">
+        SELECT yclrk_id,yclrk_no,yclrk_material_name,khmc_id,
+        gcmc_id,yclrk_team,yclrk_checkout,yclrk_standard,yclrk_time,
+        yclrk_amount,yclrk_amount_damage,yclrk_shelves,yclrk_barcode,
+        yclrk_barcode_iscreate,yclrk_standard_width,yclrk_standard_height,
+        yclrk_ck_time,yclrk_cpsj_time,yclrk_rest_amount FROM yclrk AS yc
+    </select>
+    <!--用于搜索-->
+    <select id="getYclrkVoLists" resultMap="yclrkVoList">
+        SELECT yclrk_id,yclrk_no,yclrk_material_name,khmc_id,
+        gcmc_id,yclrk_team,yclrk_checkout,yclrk_standard,yclrk_time,
+        yclrk_amount,yclrk_amount_damage,yclrk_shelves,yclrk_barcode,
+        yclrk_barcode_iscreate,yclrk_standard_width,yclrk_standard_height,
+        yclrk_ck_time,yclrk_cpsj_time,yclrk_rest_amount FROM yclrk AS yc
+        <where>
+            <if test="ycl_name != null and ycl_name != ''">
+                yclrk_material_name like concat('%',#{ycl_name},'%')
+            </if>
+        </where>
+    </select>
+    <!--修改-->
+    <update id="updateYclrk" parameterType="Yclrk">
+        UPDATE yclrk
+        <set>
+            <if test=" yclrk_no != 0 and  yclrk_no != null">
+                yclrk_no = #{ yclrk_no},
+            </if>
+            <if test="yclrk_material_name != null and yclrk_material_name != ''">
+                yclrk_material_name = #{yclrk_material_name},
+            </if>
+            <if test="khmc_id != null and khmc_id != ''">
+                khmc_id = #{khmc_id},
+            </if>
+            <if test="gcmc_id != null and gcmc_id != ''">
+                gcmc_id = #{gcmc_id},
+            </if>
+            <if test="yclrk_team != null and yclrk_team != ''">
+                yclrk_team = #{yclrk_team},
+            </if>
+            <if test="yclrk_checkout != null and yclrk_checkout != ''">
+                yclrk_checkout = #{yclrk_checkout},
+            </if>
+            <if test="yclrk_amount != null and yclrk_amount != ''">
+                yclrk_amount = #{yclrk_amount},
+            </if>
+            <if test="yclrk_standard_width != null and yclrk_standard_width != ''">
+                yclrk_standard_width = #{yclrk_standard_width},
+            </if>
+            <if test="yclrk_standard_height != null and yclrk_standard_height != ''">
+                yclrk_standard_height = #{yclrk_standard_height},
+            </if>
+        </set>
+        where yclrk_id = #{yclrk_id}
+    </update>
+    <!--批量删除-->
+    <delete id="deleteYclrk">
+        delete from yclrk where yclrk_id in
+        <foreach collection="array" close=")" separator="," open="(" item="id">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>

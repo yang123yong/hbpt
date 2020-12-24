@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<div class="easyui-layout" data-options="fit:true">
+    <div data-options="region:'center',title:'原材料管理'">
+        <!--工具栏-->
+        <div id="yclgl_tb">
+            <a href="javascript:openYclgl();" class="easyui-linkbutton"
+               data-options="iconCls:'icon-add',plain:true">新增</a>
+            <a href="javascript:updateYclgl();" class="easyui-linkbutton" data-options="iconCls:'icon-edit',plain:true">修改</a>
+            <a href="javascript:deleteYclgl();" class="easyui-linkbutton"
+               data-options="iconCls:'icon-delete',plain:true">删除</a>
+            <!-- 搜索框 -->
+            <div style="float:left;position:relative;top:2px;">
+                <input id="ss" class="easyui-searchbox"
+                       data-options="searcher:query,prompt:'请输入原材料名称',menu:'#mm'"></input>
+                <div id="mm" style="width:120px">
+                    <div data-options="name:'yclrk_name',iconCls:'icon-ok'">原材料名称</div>
+                    <!--  <div data-options="name:'khmc_id'">客户id</div>-->
+                </div>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <table id="yclgl" class="easyui-datagrid"
+               data-options="fit:true,fitColumns:true,rownumbers:true,pagination:true,toolbar:'#yclgl_tb'"
+        >
+            <thead>
+            <tr>
+                <th data-options="field:'ck',width:100,checkbox:true"></th>
+                <th data-options="field:'yclrk_no',width:100">编号</th>
+                <th data-options="field:'yclrk_material_name',width:100">原材料名称</th>
+                <th data-options="field:'khmc_name',width:100,formatter:khmcInfo">客户名称</th>
+                <th data-options="field:'gcmc_name',width:100,formatter:gcmcInfo">工程名称</th>
+                <th data-options="field:'yclrk_standard_height',width:100">规格(高)</th>
+                <th data-options="field:'yclrk_standard_width',width:100">规格(宽)</th>
+                <th data-options="field:'yclrk_time',width:100">入库时间</th>
+                <th data-options="field:'yclrk_amount',width:100">数量</th>
+                <th data-options="field:'yclrk_shelves',width:100">是否上架</th>
+                <th data-options="field:'operation',width:100,formatter:options">操作</th>
+            </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+<!-- 工程信息窗口 -->
+<div id="yclgl_window">
+    <form id="yclgl_info" method="post">
+        <div>
+            <label>原材编号:</label>
+            <input class="easyui-validatebox" type="text" name="yclrk_no" data-options="required:true"/>
+        </div>
+        <div>
+            <label>原材名称:</label>
+            <input class="easyui-validatebox" type="text" name="yclrk_material_name" data-options="required:true"/>
+        </div>
+        <div>
+            <label>客户名称:</label>
+            <input class="easyui-combobox" name="khmc_id"
+                   data-options="valueField:'id',textField:'text',url:'/khmc/getAll'"/>
+        </div>
+        <div>
+            <label>工程名称:</label>
+            <input class="easyui-combobox" name="gcmc_id" value="请选择"
+                   data-options="valueField:'gcmc_id',textField:'gcmc_name',url:'/gcmc/getAll/lable'"/>
+        </div>
+        <div>
+            <label>&emsp;班组&emsp;:</label>
+            <input class="easyui-validatebox" type="text" name="yclrk_team"/>
+        </div>
+        <div>
+            <label>&emsp;检验&emsp;:</label>
+            <input class="easyui-validatebox" type="text" name="yclrk_checkout" data-options="required:true"/>
+        </div>
+        <div>
+            <label>&emsp;规格&emsp;:</label>
+            <input class="easyui-validatebox" type="text" name="yclrk_standard_height" data-options="required:true"/>
+            <label>(高):</label>
+        </div>
+        <div>
+            <label>&emsp;规格&emsp;:</label>
+            <input class="easyui-validatebox" type="text" name="yclrk_standard_width" data-options="required:true"/>
+            <label>(宽):</label>
+        </div>
+        <div>
+            <label>&emsp;数量&emsp;:</label>
+            <input class="easyui-validatebox" type="text" name="yclrk_amount" data-options="required:true"/>
+        </div>
+    </form>
+</div>
+<script src="/js/yclrk.js" type="text/javascript"></script>
+</body>
+</html>

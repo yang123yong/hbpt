@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/crk5?serverTimezone=UTC&useUnicode=true
+    username: root
+    password: 123456
+  thymeleaf:
+    cache: false
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    prefix: classpath:/templates/
+    suffix: .html
+mybatis:
+  type-aliases-package: com.sys.demo01.pojo
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mappers/*.xml
+server:
+  port: 8080
+  #servlet:
+    #context-path: /demo01
+logging:
+  level:
+    com.sys.demo01: debug
+    org.springframwork: info
+# 分页配置
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql

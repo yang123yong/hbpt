@@ -1,0 +1,461 @@
+[INFO]2020-12-16 09:07:21,100 - HV000001: Hibernate Validator 5.2.1.Final
+[INFO]2020-12-16 09:07:21,334 - Starting Demo01Application using Java 1.8.0_51 on DESKTOP-UE9MP99 with PID 11728 (D:\IDEAWorkSpace\demo01\target\classes started by Admin in D:\IDEAWorkSpace\demo01)
+[INFO]2020-12-16 09:07:21,334 - No active profile set, falling back to default profiles: default
+[WARN]2020-12-16 09:07:24,522 - No MyBatis mapper was found in '[com.sys.demo01]' package. Please check your configuration.
+[INFO]2020-12-16 09:07:25,459 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2020-12-16 09:07:25,490 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2020-12-16 09:07:25,490 - Starting service [Tomcat]
+[INFO]2020-12-16 09:07:25,490 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[INFO]2020-12-16 09:07:25,631 - Initializing Spring embedded WebApplicationContext
+[INFO]2020-12-16 09:07:25,631 - Root WebApplicationContext: initialization completed in 4109 ms
+[INFO]2020-12-16 09:07:26,975 - Initializing ExecutorService 'applicationTaskExecutor'
+[WARN]2020-12-16 09:07:27,256 - Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+[WARN]2020-12-16 09:07:27,256 - Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+[WARN]2020-12-16 09:07:27,334 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO]2020-12-16 09:07:27,365 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+[INFO]2020-12-16 09:07:27,365 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+[INFO]2020-12-16 09:07:27,365 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+[INFO]2020-12-16 09:07:27,365 - Clear EntityHelper entityTableMap cache.
+[INFO]2020-12-16 09:07:27,771 - LiveReload server is running on port 35729
+[INFO]2020-12-16 09:07:27,818 - Starting ProtocolHandler ["http-nio-8080"]
+[WARN]2020-12-16 09:07:27,834 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[INFO]2020-12-16 09:07:27,834 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO]2020-12-16 09:07:27,834 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2020-12-16 09:07:27,834 - Stopping service [Tomcat]
+[INFO]2020-12-16 09:07:27,850 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2020-12-16 09:07:27,850 - Destroying ProtocolHandler ["http-nio-8080"]
+[ERROR]2020-12-16 09:07:28,006 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO]2020-12-16 09:08:19,994 - HV000001: Hibernate Validator 5.2.1.Final
+[INFO]2020-12-16 09:08:19,994 - Starting Demo01Application using Java 1.8.0_51 on DESKTOP-UE9MP99 with PID 10844 (D:\IDEAWorkSpace\demo01\target\classes started by Admin in D:\IDEAWorkSpace\demo01)
+[INFO]2020-12-16 09:08:19,994 - No active profile set, falling back to default profiles: default
+[WARN]2020-12-16 09:08:20,991 - No MyBatis mapper was found in '[com.sys.demo01]' package. Please check your configuration.
+[INFO]2020-12-16 09:08:21,491 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2020-12-16 09:08:21,502 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2020-12-16 09:08:21,502 - Starting service [Tomcat]
+[INFO]2020-12-16 09:08:21,502 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[INFO]2020-12-16 09:08:21,580 - Initializing Spring embedded WebApplicationContext
+[INFO]2020-12-16 09:08:21,580 - Root WebApplicationContext: initialization completed in 1508 ms
+[INFO]2020-12-16 09:08:22,299 - Initializing ExecutorService 'applicationTaskExecutor'
+[WARN]2020-12-16 09:08:22,408 - Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+[WARN]2020-12-16 09:08:22,408 - Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+[WARN]2020-12-16 09:08:22,455 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO]2020-12-16 09:08:22,486 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+[INFO]2020-12-16 09:08:22,486 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+[INFO]2020-12-16 09:08:22,486 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+[INFO]2020-12-16 09:08:22,486 - Clear EntityHelper entityTableMap cache.
+[INFO]2020-12-16 09:08:22,830 - LiveReload server is running on port 35729
+[INFO]2020-12-16 09:08:22,861 - Starting ProtocolHandler ["http-nio-8080"]
+[WARN]2020-12-16 09:08:22,877 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[INFO]2020-12-16 09:08:22,877 - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO]2020-12-16 09:08:22,877 - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO]2020-12-16 09:08:22,877 - Stopping service [Tomcat]
+[INFO]2020-12-16 09:08:22,877 - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO]2020-12-16 09:08:22,877 - Destroying ProtocolHandler ["http-nio-8080"]
+[ERROR]2020-12-16 09:08:22,924 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO]2020-12-16 09:09:22,964 - HV000001: Hibernate Validator 5.2.1.Final
+[INFO]2020-12-16 09:09:22,964 - Starting Demo01Application using Java 1.8.0_51 on DESKTOP-UE9MP99 with PID 8124 (D:\IDEAWorkSpace\demo01\target\classes started by Admin in D:\IDEAWorkSpace\demo01)
+[INFO]2020-12-16 09:09:22,964 - No active profile set, falling back to default profiles: default
+[WARN]2020-12-16 09:09:23,932 - No MyBatis mapper was found in '[com.sys.demo01]' package. Please check your configuration.
+[INFO]2020-12-16 09:09:24,386 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2020-12-16 09:09:24,401 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2020-12-16 09:09:24,401 - Starting service [Tomcat]
+[INFO]2020-12-16 09:09:24,401 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[INFO]2020-12-16 09:09:24,479 - Initializing Spring embedded WebApplicationContext
+[INFO]2020-12-16 09:09:24,479 - Root WebApplicationContext: initialization completed in 1437 ms
+[INFO]2020-12-16 09:09:25,167 - Initializing ExecutorService 'applicationTaskExecutor'
+[WARN]2020-12-16 09:09:25,276 - Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+[WARN]2020-12-16 09:09:25,276 - Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+[WARN]2020-12-16 09:09:25,323 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO]2020-12-16 09:09:25,339 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+[INFO]2020-12-16 09:09:25,354 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+[INFO]2020-12-16 09:09:25,354 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+[INFO]2020-12-16 09:09:25,354 - Clear EntityHelper entityTableMap cache.
+[INFO]2020-12-16 09:09:25,667 - LiveReload server is running on port 35729
+[INFO]2020-12-16 09:09:25,698 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2020-12-16 09:09:25,776 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2020-12-16 09:09:25,823 - Started Demo01Application in 3.386 seconds (JVM running for 5.059)
+[INFO]2020-12-16 09:09:30,294 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2020-12-16 09:09:30,294 - Initializing Servlet 'dispatcherServlet'
+[INFO]2020-12-16 09:09:30,297 - Completed initialization in 3 ms
+[ERROR]2020-12-16 09:09:31,885 - [THYMELEAF][http-nio-8080-exec-2] Exception processing template "favicon.ico": Error resolving template [favicon.ico], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [favicon.ico], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR]2020-12-16 09:09:31,902 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [favicon.ico], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [favicon.ico], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO]2020-12-16 09:09:33,961 - HikariPool-1 - Starting...
+[INFO]2020-12-16 09:09:34,475 - HikariPool-1 - Start completed.
+[INFO]2020-12-16 16:50:09,720 - HV000001: Hibernate Validator 5.2.1.Final
+[INFO]2020-12-16 16:50:09,756 - Starting Demo01Application using Java 1.8.0_51 on DESKTOP-UE9MP99 with PID 11652 (D:\IDEAWorkSpace\demo01\target\classes started by Admin in D:\IDEAWorkSpace\demo01)
+[INFO]2020-12-16 16:50:09,786 - No active profile set, falling back to default profiles: default
+[WARN]2020-12-16 16:50:12,223 - No MyBatis mapper was found in '[com.sys.demo01]' package. Please check your configuration.
+[INFO]2020-12-16 16:50:12,780 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2020-12-16 16:50:12,790 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2020-12-16 16:50:12,791 - Starting service [Tomcat]
+[INFO]2020-12-16 16:50:12,792 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[INFO]2020-12-16 16:50:12,876 - Initializing Spring embedded WebApplicationContext
+[INFO]2020-12-16 16:50:12,876 - Root WebApplicationContext: initialization completed in 2554 ms
+[INFO]2020-12-16 16:50:13,666 - Initializing ExecutorService 'applicationTaskExecutor'
+[WARN]2020-12-16 16:50:13,866 - Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+[WARN]2020-12-16 16:50:13,866 - Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+[WARN]2020-12-16 16:50:13,949 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO]2020-12-16 16:50:13,998 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+[INFO]2020-12-16 16:50:13,999 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+[INFO]2020-12-16 16:50:14,000 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+[INFO]2020-12-16 16:50:14,000 - Clear EntityHelper entityTableMap cache.
+[INFO]2020-12-16 16:50:14,457 - LiveReload server is running on port 35729
+[INFO]2020-12-16 16:50:14,485 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2020-12-16 16:50:14,507 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2020-12-16 16:50:14,548 - Started Demo01Application in 6.023 seconds (JVM running for 8.071)
+[INFO]2020-12-16 16:50:35,228 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2020-12-16 16:50:35,228 - Initializing Servlet 'dispatcherServlet'
+[INFO]2020-12-16 16:50:35,230 - Completed initialization in 1 ms
+[ERROR]2020-12-16 16:50:36,275 - [THYMELEAF][http-nio-8080-exec-3] Exception processing template "favicon.ico": Error resolving template [favicon.ico], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [favicon.ico], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR]2020-12-16 16:50:36,281 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [favicon.ico], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [favicon.ico], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO]2020-12-16 16:50:39,641 - HikariPool-1 - Starting...
+[INFO]2020-12-16 16:50:39,971 - HikariPool-1 - Start completed.
+[INFO]2020-12-16 17:09:33,924 - HV000001: Hibernate Validator 5.2.1.Final
+[INFO]2020-12-16 17:09:33,929 - Starting Demo01Application using Java 1.8.0_51 on DESKTOP-UE9MP99 with PID 2188 (D:\IDEAWorkSpace\demo01\target\classes started by Admin in D:\IDEAWorkSpace\demo01)
+[INFO]2020-12-16 17:09:33,931 - No active profile set, falling back to default profiles: default
+[WARN]2020-12-16 17:09:35,173 - No MyBatis mapper was found in '[com.sys.demo01]' package. Please check your configuration.
+[INFO]2020-12-16 17:09:35,694 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2020-12-16 17:09:35,707 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2020-12-16 17:09:35,707 - Starting service [Tomcat]
+[INFO]2020-12-16 17:09:35,708 - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[INFO]2020-12-16 17:09:35,787 - Initializing Spring embedded WebApplicationContext
+[INFO]2020-12-16 17:09:35,787 - Root WebApplicationContext: initialization completed in 1675 ms
+[INFO]2020-12-16 17:09:36,519 - Initializing ExecutorService 'applicationTaskExecutor'
+[WARN]2020-12-16 17:09:36,653 - Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+[WARN]2020-12-16 17:09:36,654 - Locations list is empty. No resources will be served unless a custom ResourceResolver is configured as an alternative to PathResourceResolver.
+[WARN]2020-12-16 17:09:36,713 - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+[INFO]2020-12-16 17:09:36,739 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+[INFO]2020-12-16 17:09:36,740 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+[INFO]2020-12-16 17:09:36,741 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+[INFO]2020-12-16 17:09:36,741 - Clear EntityHelper entityTableMap cache.
+[INFO]2020-12-16 17:09:37,123 - LiveReload server is running on port 35729
+[INFO]2020-12-16 17:09:37,158 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2020-12-16 17:09:37,180 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2020-12-16 17:09:37,216 - Started Demo01Application in 3.94 seconds (JVM running for 5.013)
+[INFO]2020-12-16 17:09:43,535 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2020-12-16 17:09:43,535 - Initializing Servlet 'dispatcherServlet'
+[INFO]2020-12-16 17:09:43,538 - Completed initialization in 1 ms
+[ERROR]2020-12-16 17:09:44,297 - [THYMELEAF][http-nio-8080-exec-5] Exception processing template "favicon.ico": Error resolving template [favicon.ico], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [favicon.ico], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR]2020-12-16 17:09:44,301 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [favicon.ico], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [favicon.ico], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO]2020-12-16 17:09:45,638 - HikariPool-1 - Starting...
+[INFO]2020-12-16 17:09:46,199 - HikariPool-1 - Start completed.
