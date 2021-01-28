@@ -27,7 +27,7 @@ public class MvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-
+    	System.out.println("你好");
         //扫描static下的所有html页面
         registry.addResourceHandler("classpath:/static/*.html");
         //扫描static下的所有资源
